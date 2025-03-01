@@ -1,8 +1,13 @@
-# React + Vite
+# Симулятор командной строки
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+которая умеет:
 
-Currently, two official plugins are available:
+- перемещаться по истории команд при помощи стрелок
+- выполнять команду cd
+- выполнять команду say hello
+- менять цвет фона
+- красиво выводить ответ
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Снимок экрана (24).png](public/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%2824%29.png)
+![Снимок экрана (25).png](public/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%2825%29.png)
+![Снимок экрана (40).png](public/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%2840%29.png)
