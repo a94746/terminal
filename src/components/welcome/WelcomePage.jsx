@@ -1,4 +1,4 @@
-export default function Welcome() {
+export default function WelcomePage() {
     return (
         <div style={{textAlign: "center"}}>
             <h1>Welcome to Terminal</h1>

@@ -1,10 +1,9 @@
-import {lastCharOfTerminal} from "../components/console/Textarea.jsx";
+import {lastCharOfTerminal} from "../components/terminal/Textarea.jsx";
 
 export const isCdCommand = (command) => command.substring(0, 3) === "cd "
 
 export default function doCdCommand(command, path, setPath) {
     let newPath
-    console.log(command.substring(3, 5))
     if (command.substring(3, 5) == "..") {
         newPath = path.substring(0, path.lastIndexOf("\\")) + lastCharOfTerminal;
         if (newPath.length <= 5) {

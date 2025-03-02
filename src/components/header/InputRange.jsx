@@ -24,8 +24,8 @@ const StyledInputRange = styled.input`
     }
 `
 
-export default function InputRange({value, onInput}) {
+export default function InputRange(props) {
     return (
-        <StyledInputRange type="range" min="-100" max="100" step="1" value={value} onInput={onInput} />
+        <StyledInputRange type="range" min="-100" max="100" step="2" {...props} />
     )
 }
